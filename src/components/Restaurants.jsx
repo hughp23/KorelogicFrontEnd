@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { getRestaurants } from '../utils.js';
 
 class Restaurants extends Component {
     state = {

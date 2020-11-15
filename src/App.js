@@ -3,7 +3,7 @@ import './App.css';
 import './styles/_index.scss';
 import Restaurants from './components/Restaurants';
 import SearchBar from './components/SearchBar';
-import { getRestaurants } from '../utils.js';
+import { getRestaurants } from './utils.js';
 
 class App extends Component  {
   state = {
@@ -24,7 +24,7 @@ class App extends Component  {
   }
 
   componentDidMount() {
-    const restaurants = getRestaurants();
+    const restaurants = getRestaurants(null, null, null);
         this.setState({ restaurants });
   }
 
