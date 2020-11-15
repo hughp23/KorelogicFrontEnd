@@ -1,0 +1,19 @@
+{
+  "name": "korelogicfrontend",
+  "version": "1.0.0",
+  "description": "This task comes with a JSON file with restaurant data. The challenge is to build a React application to display the data and enable users to browse the restaurant listings. In one hour, please complete as many of the tasks as possible. We do not expect you to finish this test, just do as much as possible in the time frame.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hughp23/KorelogicFrontEnd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hughp23/KorelogicFrontEnd/issues"
+  },
+  "homepage": "https://github.com/hughp23/KorelogicFrontEnd#readme"
+}
