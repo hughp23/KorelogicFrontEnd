@@ -26,3 +26,20 @@ export const getRestaurants = (dog_friendly = null, vegan_options = null, cuisin
     }
     return _restaurants;
 }
+
+export const getCuisines = () => {
+    let cuisineList = [];
+    let uniqueCuisineList = [];
+    for (let i = 0; i < restaurants.length; i++) {
+        console.log(restaurants[i].cuisine, 'restaurants.cuisine')
+        cuisineList = cuisineList.concat(restaurants[i].cuisine);
+    }
+
+    for (let j = 0; j < cuisineList.length; j++) {
+        if (!uniqueCuisineList.includes(cuisineList[j])) {
+            uniqueCuisineList.push({name: cuisineList[j], id: j})
+        }
+    }
+
+    return uniqueCuisineList;
+}

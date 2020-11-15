@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
-import { getRestaurants } from '../utils.js'
-import CuisineList from './CuisineList.jsx';
+import { getRestaurants } from '../utils.js';
 
 class Restaurants extends Component {
     state = {
         restaurants: []
     }
     render() {
-        const { restaurants } = this.state;
+        const { restaurants } = this.props;
         return (
             <div>
                 <ul>
@@ -29,11 +28,6 @@ class Restaurants extends Component {
                 </ul>
             </div>
         );
-    }
-
-    componentDidMount() {
-        const restaurants = getRestaurants();
-        this.setState({ restaurants });
     }
 }
 
