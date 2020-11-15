@@ -1,23 +1,70 @@
-# Restaurant Listing Tech Test
+# Getting Started with Create React App
 
-This task comes with a JSON file with restaurant data. The challenge is to build a React application to display the data and enable users to browse the restaurant listings. In one hour, please complete as many of the tasks as possible. We do not expect you to finish this test, just do as much as possible in the time frame.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## The Test
+## Available Scripts
 
-Using the data provided in `restaurants.json`:
+In the project directory, you can run:
 
-1. Display a list of all of the data provided for each restaurant listing. You can decide on the UI for the application, but make it as clear and user friendly as possible. Don't worry too much about design, that won't be the focus of the task.
-2. Create a list of cuisines dynamically from the data provided. Do not hard code this list, but instead take it from the listings.
-3. When a user clicks on a cuisine, filter the list of restaurants displayed by that cuisine. If a user selects multiple cuisines, only return restaurants with all of these cuisines.
-4. Add toggles for vegan friendly and dog friendly restaurants and allow a user to filter by these. This should only filtered restaurants currently displayed. E.g. if a user selects "British" as their cuisine and "Dog friendly", they should only see restaurants which serve British food and are dog friendly.
-5. Add a clear button which will clear all filters and display the full list of restaurants.
+### `npm start`
 
-## Review Criteria
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-At a high level we are looking for:
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-- A clear README with instructions on how to run the application
-- Well structured code
-- A good level of understanding of React
-- Descriptive and regular commit messages
-- Good use of Javascript data manipulation methods
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
