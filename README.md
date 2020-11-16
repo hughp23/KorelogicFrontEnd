@@ -21,3 +21,7 @@ At a high level we are looking for:
 - A good level of understanding of React
 - Descriptive and regular commit messages
 - Good use of Javascript data manipulation methods
+
+## How to Use
+
+In order to run the application please fork then clone the repo to your local machine. Then run 'npm install' to install all the npm packages in the project. Then run 'npm start' to start the React application which will automatically open a browser window.
